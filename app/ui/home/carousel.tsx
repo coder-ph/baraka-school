@@ -44,9 +44,9 @@ export default function EnhancedCarousel() {
   }, []);
 
   return (
-    <div className="relative w-full h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden group">
+    <div className="relative w-full h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden group rounded-xl">
       {/* Carousel Images with Smooth Sliding Transition */}
-      <div className="relative w-full h-full">
+      <div className="relative w-full h-full rounded-xl">
         {images.map((image, index) => (
           <div
             key={index}
@@ -62,7 +62,7 @@ export default function EnhancedCarousel() {
               src={image}
               alt={`School image ${index + 1}`}
               fill
-              className="object-cover"
+              className="object-cover rounded-xl"
               priority={index === 0}
               onError={(e) => {
                 console.log(`Failed to load image: ${image}`);
@@ -91,7 +91,7 @@ export default function EnhancedCarousel() {
             <h3 className="text-lg font-bold text-gray-800">Arrange a Visit</h3>
           </div>
           <p className="text-gray-600 text-xs leading-relaxed">
-            Before applying for admissions, we highly recommend visiting our campus to experience our vibrant learning environment firsthand.
+            Before applying for admissions, we highly recommend visiting our school to experience our vibrant learning environment firsthand.
           </p>
           <div className="flex items-center text-blue-600 font-semibold text-xs group cursor-pointer">
             <span>Schedule Your Visit</span>
