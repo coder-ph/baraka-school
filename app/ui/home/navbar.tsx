@@ -21,16 +21,13 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-white shadow-sm sticky top-0 z-50 pl-5 pr-5">
+      <nav className="bg-white shadow-sm sticky top-0 z-50 pl-8 pr-8">
        
         
         <div className="container mx-auto" style={{ paddingLeft: '5px', paddingRight: '5px' }}>
           <div className="flex justify-between items-center h-16">
-            {/* Logo */}
             <Logo />
-
-            {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-8 text-[#001f5b]">
+            <div className="hidden lg:flex items-center space-x-8 text-[#3d1f4c]">
               <Dropdown title="Admissions" items={admissionsItems} />
               
               <a
