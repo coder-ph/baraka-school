@@ -10,7 +10,7 @@ interface MobileMenuProps {
 
 export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const admissionsItems = [
-    { label: 'Fee Structure', href: '/admissions/fee-structure' },
+    { label: 'Fee Structure', href: '/' },
     { label: 'Apply for Admission', href: '/admissions/apply' },
   ];
 

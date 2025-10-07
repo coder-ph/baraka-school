@@ -27,7 +27,6 @@ export default function EnhancedCarousel() {
     setCurrentSlide(index);
   };
 
-  // Reset transitioning state after animation completes
   useEffect(() => {
     if (isTransitioning) {
       const timer = setTimeout(() => {
@@ -37,7 +36,6 @@ export default function EnhancedCarousel() {
     }
   }, [isTransitioning]);
 
-  // Auto slide every 5 seconds
   useEffect(() => {
     const interval = setInterval(nextSlide, 7000);
     return () => clearInterval(interval);
@@ -45,7 +43,6 @@ export default function EnhancedCarousel() {
 
   return (
     <div className="relative w-full h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden group rounded-xl">
-      {/* Carousel Images with Smooth Sliding Transition */}
       <div className="relative w-full h-full rounded-xl">
         {images.map((image, index) => (
           <div
@@ -68,14 +65,11 @@ export default function EnhancedCarousel() {
                 console.log(`Failed to load image: ${image}`);
               }}
             />
-            {/* Gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-black/10"></div>
           </div>
         ))}
       </div>
 
-      {/* Arrange a Visit Card - Moved to bottom right */}
-      {/* Adjust the bottom-8 and right-8 values to move the card up/down or left/right */}
       <Link 
         href="/admissions" 
         className="absolute bottom-8 right-8 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl p-4 max-w-xs hover:scale-105 transform transition-all duration-300 z-20 border border-white/20"

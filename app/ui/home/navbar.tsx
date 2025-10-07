@@ -4,12 +4,13 @@ import { useState } from 'react';
 import Logo from './logo';
 import Dropdown from './dropdown';
 import MobileMenu from './mobile-menu';
+import Link from 'next/link';
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const admissionsItems = [
-    { label: 'Fee Structure', href: '/admissions/fee-structure' },
+    { label: 'Fee Structure', href: '/' },
     { label: 'Apply for Admission', href: '/admissions/apply' },
   ];
 
@@ -30,22 +31,17 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center space-x-8 text-[#3d1f4c]">
               <Dropdown title="Admissions" items={admissionsItems} />
               
-              <a
-                href="/primary"
+              <Link
+                href="/academics"
                 className=" hover:text-blue-600 transition-colors duration-200 font-medium"
                 
               >
                 Academics
-              </a>
+              </Link>
               
               <Dropdown title="News" items={newsItems} />
               
-              <a
-                href="/contact"
-                className=" hover:text-blue-600 transition-colors duration-200 font-medium"
-              >
-                Contact Info
-              </a>
+             
             </div>
 
             {/* Mobile Menu Button */}
