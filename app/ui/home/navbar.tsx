@@ -23,8 +23,6 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-transparent sticky top-0 z-50 pl-8 pr-8">
-       
-        
         <div className="container mx-auto" style={{ paddingLeft: '5px', paddingRight: '5px' }}>
           <div className="flex justify-between items-center h-16">
             <Logo />
@@ -34,14 +32,20 @@ export default function Navbar() {
               <Link
                 href="/academics"
                 className=" hover:text-blue-600 transition-colors duration-200 font-medium"
-                
               >
                 Academics
               </Link>
               
               <Dropdown title="News" items={newsItems} />
+
+              {/* School Life Link */}
+              <Link
+                href="/school-life"
+                className=" hover:text-blue-600 transition-colors duration-200 font-medium"
+              >
+                School Life
+              </Link>
               
-             
             </div>
 
             {/* Mobile Menu Button */}

@@ -1,6 +1,7 @@
 import AcademicsCarousel from "../ui/home/academics-carousel";
 import Footer from "../ui/home/footer";
 import Navbar from "../ui/home/navbar";
+import Link from "next/link";
 
 export default function Academics() {
   return (
@@ -17,7 +18,11 @@ export default function Academics() {
             <div className="lg:col-span-1">
               {/* Breadcrumb */}
               <div className="text-sm text-gray-600 mb-6">
-                Learning / <span className="font-semibold">Academics</span>
+                <Link href="/" className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200">
+                  Home
+                </Link>
+                {" / "}
+                <span className="font-semibold">Academics</span>
               </div>
               
               {/* Academics Title with Blue Background */}
@@ -28,8 +33,6 @@ export default function Academics() {
 
             {/* Right Column - Main Content */}
             <div className="lg:col-span-3 pt-20 pl-15">
-             
-
               {/* Carousel Card */}
               <div className="bg-white rounded-lg shadow-lg mb-5">
                 <AcademicsCarousel />

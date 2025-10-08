@@ -24,17 +24,14 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 
   return (
     <div className="lg:hidden fixed inset-0 top-16 bg-white z-40 overflow-y-auto">
-      <div className="px-5 py-6"> {/* Added left and right padding of 5 */}
+      <div className="container mx-auto px-4 py-6">
         <div className="space-y-4">
           {/* Admissions Dropdown */}
-          <div className="border-b border-black-200 pb-4">
+          <div className="border-b border-gray-200 pb-4">
             <details className="group">
-              <summary 
-                className="flex justify-between items-center text-black cursor-pointer list-none py-3"
-                style={{ fontSize: '23px' }}
-              >
+              <summary className="flex justify-between items-center font-medium text-gray-700 cursor-pointer list-none">
                 Admissions
-                <svg className="w-5 h-5 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
@@ -43,8 +40,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                   <Link
                     key={index}
                     href={item.href}
-                    className="block py-3 text-black hover:text-blue-600"
-                    style={{ fontSize: '20px' }}
+                    className="block py-2 text-sm text-gray-600 hover:text-blue-600"
                     onClick={onClose}
                   >
                     {item.label}
@@ -55,11 +51,10 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </div>
 
           {/* Academics */}
-          <div className="border-b border-black-200 pb-4">
+          <div className="border-b border-gray-200 pb-4">
             <Link
-              href="/primary"
-              className="block text-black hover:text-blue-600 py-3"
-              style={{ fontSize: '23px' }}
+              href="/academics"
+              className="block font-medium text-gray-700 hover:text-blue-600 py-2"
               onClick={onClose}
             >
               Academics
@@ -67,14 +62,11 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </div>
 
           {/* News Dropdown */}
-          <div className="border-b border-black-200 pb-4">
+          <div className="border-b border-gray-200 pb-4">
             <details className="group">
-              <summary 
-                className="flex justify-between items-center text-black cursor-pointer list-none py-3"
-                style={{ fontSize: '23px' }}
-              >
+              <summary className="flex justify-between items-center font-medium text-gray-700 cursor-pointer list-none">
                 News
-                <svg className="w-5 h-5 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </summary>
@@ -83,8 +75,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                   <Link
                     key={index}
                     href={item.href}
-                    className="block py-3 text-black hover:text-blue-600"
-                    style={{ fontSize: '20px' }}
+                    className="block py-2 text-sm text-gray-600 hover:text-blue-600"
                     onClick={onClose}
                   >
                     {item.label}
@@ -94,15 +85,14 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             </details>
           </div>
 
-          {/* Contact */}
-          <div className="border-b border-black-200 pb-4">
+          {/* School Life */}
+          <div className="border-b border-gray-200 pb-4">
             <Link
-              href="/contact"
-              className="block text-black hover:text-blue-600 py-3"
-              style={{ fontSize: '23px' }}
+              href="/school-life"
+              className="block font-medium text-gray-700 hover:text-blue-600 py-2"
               onClick={onClose}
             >
-              Contact Info
+              School Life
             </Link>
           </div>
         </div>

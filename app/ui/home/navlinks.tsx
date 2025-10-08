@@ -12,9 +12,9 @@ export default function Navlinks() {
       <Link href="/news" className="text-black hover:text-blue-600 transition-colors duration-200 font-medium">
         News
       </Link>
-      {/* <Link href="/contact" className="text-black hover:text-blue-600 transition-colors duration-200 font-medium">
-        Contact Info
-      </Link> */}
+      <Link href="/school-life" className="text-black hover:text-blue-600 transition-colors duration-200 font-medium">
+        School Life
+      </Link>
     </div>
   );
 }
