@@ -8,8 +8,8 @@ export default function WelcomeCard() {
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Baraka School</h2>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              Baraka school is a co-educational international school in Nairobi, Kenya. We teach children from age 3 to 18, 
-              following the National Curriculum of England and Wales. We are a member of the Braeburn Group of International Schools.
+              Baraka school is an educational school in Kibwezi East, Kenya. We teach children from age 3 to 18, 
+              following the National Curriculum of Kenya.
             </p>
           </div>
         </div>

@@ -63,7 +63,7 @@ export default function ContactCard() {
               <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
               <div className="text-gray-600">
                 <p className="text-blue-600 hover:text-blue-700 cursor-pointer font-medium">
-                  turnercbo@gmail.com
+                   barakamtitoacademy@gmail.com
                 </p>
               </div>
             </div>

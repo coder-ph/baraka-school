@@ -16,9 +16,9 @@ export default function CombinedWelcomeCard() {
                 </h2>
                 <div className="space-y-6 leading-relaxed max-w-2xl mx-auto">
                     <p>
-                        Braeburn School is a co-educational international school in Nairobi, Kenya.
+                        Baraka Academy is an educational school in Kibwezi East, Kenya.
                         We teach children from age 3 to 18, following the National Curriculum of
-                        England and Wales. We are a member of the Braeburn Group of International Schools.
+                        Kenya.
                     </p>
                 </div>
             </div>

@@ -75,7 +75,7 @@ ${formData.notes}
     `.trim();
 
     // Create mailto link
-    const mailtoLink = `mailto:enquiries.braeburn@braeburn.ac.ke?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:barakamtitoacademy@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
     
     // Open email client
     window.location.href = mailtoLink;

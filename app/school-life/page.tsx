@@ -46,7 +46,14 @@ export default function SchoolLife() {
       title: 'Morning Assembly & Gatherings',
       description: 'Daily assemblies bring our school community together for prayer, announcements, and motivational talks. These gatherings foster unity, discipline, and school spirit while setting a positive tone for the day ahead.',
       align: 'right'
-    }
+    },
+    {
+  id: 7,
+  image: '/trip.jpeg',
+  title: 'Academic Trip',
+  description: 'Educational excursions provide students with immersive learning experiences beyond the classroom. Our trips expose students to real-world applications of academic concepts, broaden their perspectives, and create memorable moments that strengthen bonds within the school community.',
+  align: 'left'
+}
   ];
 
   return (
@@ -110,12 +117,12 @@ export default function SchoolLife() {
                 </div>
 
                 {/* Content */}
-                <div className="lg:w-1/2 w-full">
+                <div className="lg:w-1/2 w-full ">
                   <div className="bg-white p-6 lg:p-8 rounded-2xl shadow-lg border border-gray-100">
                     <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-4">
                       {section.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed text-base lg:text-lg">
+                    <p className="text-gray-600 leading-relaxed text-base lg:text-lg ">
                       {section.description}
                     </p>
                     

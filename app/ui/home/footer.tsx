@@ -34,7 +34,7 @@ export default function Footer() {
               <div className="flex space-x-4">
                 {/* Facebook */}
                 <a
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=61582130754565"
                   className="bg-blue-600 hover:bg-blue-700 w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-200"
                   aria-label="Facebook"
                 >
@@ -45,7 +45,7 @@ export default function Footer() {
 
                 {/* Twitter */}
                 <a
-                  href="#"
+                  href="https://x.com/BarakaMtito?t=k6ilY6Rm9Dl5FozJLmXgpQ&s=09"
                   className="bg-blue-400 hover:bg-blue-500 w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-200"
                   aria-label="Twitter"
                 >
@@ -55,7 +55,7 @@ export default function Footer() {
                 </a>
 
                 {/* Instagram */}
-                <a
+                {/* <a
                   href="#"
                   className="bg-pink-600 hover:bg-pink-700 w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-200"
                   aria-label="Instagram"
@@ -63,7 +63,7 @@ export default function Footer() {
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987s11.987-5.367 11.987-11.987C24.014 5.367 18.647.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.611-3.189-1.551-.741-.941-1.009-2.142-.723-3.379.286-1.237 1.108-2.237 2.242-2.767 1.134-.53 2.468-.53 3.602 0 1.134.53 1.956 1.53 2.242 2.767.286 1.237.018 2.438-.723 3.379-.741.94-1.892 1.551-3.189 1.551z"/>
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -205,10 +205,10 @@ export default function Footer() {
                 </div>
                 <div>
                   <a 
-                    href="mailto:turnercbo@gmail.com" 
+                    href="mailto: barakamtitoacademy@gmail.com" 
                     className="text-gray-300 hover:text-white text-sm transition-colors duration-200"
                   >
-                    turnercbo@gmail.com
+                     barakamtitoacademy@gmail.com
                   </a>
                 </div>
               </div>

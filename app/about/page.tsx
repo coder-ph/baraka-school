@@ -1,3 +1,4 @@
+import Footer from "../ui/home/footer";
 import Navbar from "../ui/home/navbar";
 import TestimonialSlider from "../ui/home/testimonial-slider";
 
@@ -52,7 +53,7 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-bold text-blue-600 mb-4">School Information</h3>
-                <div className="space-y-2">
+                <div className="space-y-2 text-black">
                   <p><strong>Motto:</strong> Education for Self reliance</p>
                   <p><strong>Vision:</strong> To produce useful citizens who are academically competent, morally upright and socially responsible.</p>
                   <p><strong>Mission:</strong> To equip learners with knowledge, skills and values that promote creativity, innovation and self-reliance for life long success.</p>
@@ -67,7 +68,7 @@ export default function About() {
                     "Welcome to Baraka Academy! It gives me great joy to welcome you to our school community. 
                     At Baraka Academy, we believe that every child is gifted with unique talents waiting to be nurtured..."
                   </p>
-                  <p className="font-semibold">– Mr. John Okoth, Headteacher</p>
+                  <p className="font-semibold text-black">– Mr. John Okoth, Headteacher</p>
                 </div>
               </div>
             </div>
@@ -127,6 +128,9 @@ export default function About() {
           </div>
         </section>
       </div>
+    </div>
+    <div>
+      <Footer />
     </div>
     </>
   );
