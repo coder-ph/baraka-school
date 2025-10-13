@@ -7,7 +7,7 @@ export default function AcademicsCarousel() {
       <div className="relative w-full h-full">
         <Image
           src="/lab3.jpg"
-          alt="Baraka Academy Laboratory"
+          alt="Baraka Mtito Academy Laboratory"
           fill
           className="object-cover"
           priority

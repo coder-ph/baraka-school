@@ -14,14 +14,14 @@ export default function About() {
       <div className="container mx-auto px-4 max-w-7xl">
         {/* Main Content */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
-          <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">About Baraka Academy</h1>
+          <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">About Baraka Mtito Academy</h1>
           
           {/* Our Story */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-blue-600 mb-4">Our Story - Baraka Junior School under Turner Foundation</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Baraka Junior School (Baraka Academy) was established through the efforts of the Turner Foundation, 
+                Baraka Junior School (Baraka Mtito Academy) was established through the efforts of the Turner Foundation, 
                 a registered Community-Based Organization (CBO) founded in 2003 in Mtito Andei, Makueni County.
               </p>
               <p>
@@ -36,7 +36,7 @@ export default function About() {
                 children from less privileged backgrounds.
               </p>
               <p>
-                In 2013, the CBO acquired land in Kwa Kithokoi town and established Baraka Academy. With eleven modern 
+                In 2013, the CBO acquired land in Kwa Kithokoi town and established Baraka Mtito Academy. With eleven modern 
                 classrooms, dormitories for boys and girls, a kitchen, dining hall, playground, and junior secondary 
                 facilities, the school now provides a nurturing environment for over 200 pupils under the guidance of 
                 qualified teachers.
@@ -65,8 +65,8 @@ export default function About() {
                 <h3 className="text-xl font-bold text-blue-600 mb-4">Welcome Message from the Headteacher</h3>
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <p className="text-gray-700 italic mb-4">
-                    "Welcome to Baraka Academy! It gives me great joy to welcome you to our school community. 
-                    At Baraka Academy, we believe that every child is gifted with unique talents waiting to be nurtured..."
+                    "Welcome to Baraka Mtito Academy! It gives me great joy to welcome you to our school community. 
+                    At Baraka Mtito Academy, we believe that every child is gifted with unique talents waiting to be nurtured..."
                   </p>
                   <p className="font-semibold text-black">– Mr. John Okoth, Headteacher</p>
                 </div>
@@ -74,9 +74,9 @@ export default function About() {
             </div>
           </section>
 
-          {/* Why Choose Baraka Academy */}
+          {/* Why Choose Baraka Mtito Academy */}
           <section className="mb-12">
-            <h2 className="text-2xl font-bold text-blue-600 mb-4">Why Choose Baraka Academy?</h2>
+            <h2 className="text-2xl font-bold text-blue-600 mb-4">Why Choose Baraka Mtito Academy?</h2>
             <div className="grid md:grid-cols-2 gap-4">
               {[
                 "Individualized Attention – accommodative size ensuring every child's needs are met.",

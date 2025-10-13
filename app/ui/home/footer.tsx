@@ -17,12 +17,12 @@ export default function Footer() {
               <div className="w-24 h-16 relative">
                 <Image
                   src="/baraka.png"
-                  alt="Baraka Academy Logo"
+                  alt="Baraka Mtito Academy Logo"
                   fill
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-white">Baraka Academy</h3>
+              <h3 className="text-2xl font-bold text-white">Baraka Mtito Academy</h3>
               <p className="text-gray-300 text-sm">
                 Education for Self Reliance
               </p>
@@ -222,7 +222,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {currentYear} Baraka Academy. All rights reserved.
+              © {currentYear} Baraka Mtito Academy. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <Link href="/privacy" className="hover:text-white transition-colors duration-200">

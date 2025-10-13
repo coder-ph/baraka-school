@@ -5,19 +5,19 @@ import { useState, useEffect } from 'react';
 const testimonials = [
   {
     id: 1,
-    text: "As a parent, I could not have asked for a better school for my child. The teachers at Baraka Academy are not only professional but also genuinely caring. My daughter has grown in confidence, developed strong values, and discovered talents I never knew she had.",
+    text: "As a parent, I could not have asked for a better school for my child. The teachers at Baraka Mtito Academy are not only professional but also genuinely caring. My daughter has grown in confidence, developed strong values, and discovered talents I never knew she had.",
     author: "Happy Parent",
     role: "Parent"
   },
   {
     id: 2,
-    text: "For more than 22 years, I have had the privilege of witnessing the unique journey of Baraka Academy. I have seen children walk through our gates with curiosity and potential and leave as confident, capable and compassionate young people.",
+    text: "For more than 22 years, I have had the privilege of witnessing the unique journey of Baraka Mtito Academy. I have seen children walk through our gates with curiosity and potential and leave as confident, capable and compassionate young people.",
     author: "Dorothy Katiku",
     role: "Board Member"
   },
   {
     id: 3,
-    text: "What makes Baraka Academy stand out is that we go beyond academics. Yes, we pursue excellence in learning, but just as importantly, we instill values, resilience and character. Here, every child is known and supported.",
+    text: "What makes Baraka Mtito Academy stand out is that we go beyond academics. Yes, we pursue excellence in learning, but just as importantly, we instill values, resilience and character. Here, every child is known and supported.",
     author: "School Administrator",
     role: "Administration"
   },
@@ -29,19 +29,19 @@ const testimonials = [
   },
   {
     id: 5,
-    text: "I'm amazed by the holistic approach to education at Baraka Academy. My child not only excels academically but has also developed strong moral values and social skills that will serve them for life.",
+    text: "I'm amazed by the holistic approach to education at Baraka Mtito Academy. My child not only excels academically but has also developed strong moral values and social skills that will serve them for life.",
     author: "Grateful Mother",
     role: "Parent"
   },
   {
     id: 6,
-    text: "The facilities and resources at Baraka Academy are exceptional. The modern classrooms and sports facilities provide an ideal environment for learning and growth.",
+    text: "The facilities and resources at Baraka Mtito Academy are exceptional. The modern classrooms and sports facilities provide an ideal environment for learning and growth.",
     author: "Impressed Visitor",
     role: "Education Consultant"
   },
   {
     id: 7,
-    text: "As an alumnus, I can confidently say that Baraka Academy laid a strong foundation for my success. The values and education I received here have been invaluable throughout my career.",
+    text: "As an alumnus, I can confidently say that Baraka Mtito Academy laid a strong foundation for my success. The values and education I received here have been invaluable throughout my career.",
     author: "Successful Alumnus",
     role: "Former Student"
   },

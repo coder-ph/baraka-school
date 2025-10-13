@@ -141,7 +141,7 @@ export default function SchoolLife() {
             <div className="bg-blue-600 rounded-2xl p-8 lg:p-12 text-white">
               <h2 className="text-2xl lg:text-3xl font-bold mb-4">Join Our Vibrant Community</h2>
               <p className="text-lg lg:text-xl mb-8 max-w-2xl mx-auto">
-                Experience the Baraka Academy difference - where education meets excellence, 
+                Experience the Baraka Mtito Academy difference - where education meets excellence, 
                 and every student discovers their potential in a supportive, engaging environment.
               </p>
               <Link 

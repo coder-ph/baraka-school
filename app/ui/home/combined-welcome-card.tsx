@@ -16,7 +16,7 @@ export default function CombinedWelcomeCard() {
                 </h2>
                 <div className="space-y-6 leading-relaxed max-w-2xl mx-auto">
                     <p>
-                        Baraka Academy is an educational school in Kibwezi East, Kenya.
+                        Baraka Mtito Academy is an educational school in Kibwezi East, Kenya.
                         We teach children from age 3 to 18, following the National Curriculum of
                         Kenya.
                     </p>

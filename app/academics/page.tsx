@@ -44,7 +44,7 @@ export default function Academics() {
                 <div className="bg-white rounded-lg shadow-lg p-8">
                   <h2 className="text-2xl font-bold text-gray-800 mb-4">A Legacy of Academic Excellence</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Baraka Academy has long stood as a beacon of academic excellence in Kibwezi Sub-County 
+                    Baraka Mtito Academy has long stood as a beacon of academic excellence in Kibwezi Sub-County 
                     and across Makueni County. The school has consistently produced learners who are not only 
                     well-grounded in knowledge but also confident, disciplined and ready to excel in higher 
                     levels of education.
@@ -60,7 +60,7 @@ export default function Academics() {
                   <h2 className="text-2xl font-bold text-gray-800 mb-4">Consistent Top Performance</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     Before the transition from the 8-4-4 system to the Competency-Based Curriculum (CBC), 
-                    Baraka Academy consistently ranked among the top schools in both the sub-county and 
+                    Baraka Mtito Academy consistently ranked among the top schools in both the sub-county and 
                     zonal examinations.
                   </p>
                   
@@ -91,7 +91,7 @@ export default function Academics() {
                 <div className="bg-white rounded-lg shadow-lg p-8">
                   <h2 className="text-2xl font-bold text-gray-800 mb-4">Excelling in the CBC Era</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Even after transitioning to the Competency-Based Curriculum (CBC) system, Baraka Academy 
+                    Even after transitioning to the Competency-Based Curriculum (CBC) system, Baraka Mtito Academy 
                     continues to uphold its tradition of excellence. Our commitment to quality education 
                     remains unwavering as we adapt to the new curriculum while maintaining our high standards.
                   </p>
@@ -112,7 +112,7 @@ export default function Academics() {
                 <div className="bg-white rounded-lg shadow-lg p-8">
                   <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Enduring Academic Tradition</h2>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    At Baraka Academy, academic success is more than just a goal—it's a tradition we nurture 
+                    At Baraka Mtito Academy, academic success is more than just a goal—it's a tradition we nurture 
                     and uphold with pride. Our dedicated teaching staff, comprehensive curriculum, and 
                     supportive learning environment ensure that every student reaches their full potential.
                   </p>
@@ -133,7 +133,7 @@ export default function Academics() {
                   </div>
                   
                   <p className="text-gray-700 leading-relaxed mt-6">
-                    Join us at Baraka Academy, where we continue to build on our legacy of excellence 
+                    Join us at Baraka Mtito Academy, where we continue to build on our legacy of excellence 
                     and prepare students for success in an ever-changing world.
                   </p>
                 </div>
