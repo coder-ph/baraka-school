@@ -10,6 +10,7 @@ export default function CombinedWelcomeCard() {
             <div>
                 <h2 className="text-4xl font-bold mb-6">
                     Welcome to Baraka School{' '}
+                    <br/>
                     <span className="text-xl italic font-bold">
                         Where knowledge inspires self-reliance.
                     </span>
@@ -17,8 +18,7 @@ export default function CombinedWelcomeCard() {
                 <div className="space-y-6 leading-relaxed max-w-2xl mx-auto">
                     <p>
                         Baraka Mtito Academy is an educational school in Kibwezi East, Kenya.
-                        We teach children from age 3 to 18, following the National Curriculum of
-                        Kenya.
+                        
                     </p>
                 </div>
             </div>

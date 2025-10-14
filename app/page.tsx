@@ -9,23 +9,22 @@ export default function Home() {
   return (
     <>
    
-    <div className="min-h-screen bg-gray-50 ">
+    <div className="min-h-screen bg-gray-100 pl-15 pr-15">
       {/* Sticky Navbar */}
-      <div className="sticky top-0 bg-white z-50 h-[3px] lg:pl-46 lg:pr-46 ">
+      <div className="sticky top-0 bg-gray-100 z-50">
         <Navbar />
-        <div className=" border-b-[3px] border-blue-600"></div>
+        <div className="border-b-2 border-blue-600"></div>
       </div>
-      
 
       {/* Hero Carousel Section */}
-      <section className="relative lg:pl-46 lg:pr-46">
+      <section className="relative">
         <Carousel />
       </section>
 
       {/* Combined Welcome Card Section */}
       <section className="py-5">
         <div className="container mx-auto">
-          <div className=" mx-auto">
+          <div className="max-w-6xl mx-auto">
             {/* Single Combined Card */}
             <div>
               <CombinedWelcomeCard />
@@ -37,7 +36,7 @@ export default function Home() {
       {/* Map and Contact Cards Section */}
       <section className="bg-white pb-10">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-8xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* Left Card - Map */}
             <div className="h-[600px]">
               <MapCard />

@@ -8,8 +8,7 @@ export default function WelcomeCard() {
           <h2 className="lg:text-3xl font-bold text-gray-800 mb-4">Welcome to Baraka School</h2>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              Baraka school is an educational school in Kibwezi East. We teach children 
-              following the National Curriculum of Kenya.
+              Baraka school is an educational school in Kibwezi East. 
             </p>
           </div>
         </div>

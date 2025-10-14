@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-50 sticky top-3 z-50 pl-8 pr-8 pb-8">
+      <nav className="bg-transparent sticky top-3 z-50 pl-8 pr-8 pb-8">
         <div className="container mx-auto" style={{ paddingLeft: '5px', paddingRight: '5px' }}>
           <div className="flex justify-between items-center h-16">
             <Logo />
