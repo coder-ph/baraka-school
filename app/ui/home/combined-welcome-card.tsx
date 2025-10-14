@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function CombinedWelcomeCard() {
   return (
-    <div className="bg-white rounded-2xl shadow-2xl overflow-hidden h-[350px] md:h-[450px] lg:h-[500px]">
+    <div className=" rounded-2xl shadow-2xl overflow-hidden h-[350px] md:h-[450px] lg:h-[500px]">
       <div className="grid grid-cols-1 lg:grid-cols-2 h-full">
         {/* Left Side - Welcome Message */}
         <div className="p-12 flex flex-col items-center justify-center text-center bg-[#3d1f4c] text-white">
@@ -17,7 +17,7 @@ export default function CombinedWelcomeCard() {
                 </h2>
                 <div className="space-y-6 leading-relaxed max-w-2xl mx-auto">
                     <p>
-                        Baraka Mtito Academy is an educational school in Kibwezi East, Kenya.
+                        
                         
                     </p>
                 </div>

@@ -11,7 +11,7 @@ export default function Home() {
    
     <div className="min-h-screen bg-gray-100 pl-15 pr-15">
       {/* Sticky Navbar */}
-      <div className="sticky top-0 bg-gray-100 z-50">
+      <div className="sticky top-0 bg-white z-50">
         <Navbar />
         <div className="border-b-2 border-blue-600"></div>
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
       {/* Combined Welcome Card Section */}
       <section className="py-5">
         <div className="container mx-auto">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-8xl mx-auto">
             {/* Single Combined Card */}
             <div>
               <CombinedWelcomeCard />
@@ -34,9 +34,9 @@ export default function Home() {
       </section>
 
       {/* Map and Contact Cards Section */}
-      <section className="bg-white pb-10">
+      <section className=" pb-10">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-8xl mx-auto">
             {/* Left Card - Map */}
             <div className="h-[600px]">
               <MapCard />
