@@ -5,10 +5,10 @@ export default function WelcomeCard() {
     <div className="bg-white rounded-2xl shadow-2xl  h-full">
       <div className="h-full flex flex-col">
         <div className="flex-1">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Baraka School</h2>
+          <h2 className="lg:text-3xl font-bold text-gray-800 mb-4">Welcome to Baraka School</h2>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              Baraka school is an educational school in Kibwezi East, Kenya. We teach children from age 3 to 18, 
+              Baraka school is an educational school in Kibwezi East. We teach children 
               following the National Curriculum of Kenya.
             </p>
           </div>

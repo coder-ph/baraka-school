@@ -11,10 +11,11 @@ export default function Home() {
    
     <div className="min-h-screen bg-gray-50 ">
       {/* Sticky Navbar */}
-      <div className="sticky top-0 bg-white z-50">
+      <div className="sticky top-0 bg-white z-50 h-[3px] lg:pl-46 lg:pr-46 ">
         <Navbar />
-        <div className="border-b-2 border-blue-600"></div>
+        <div className=" border-b-[3px] border-blue-600"></div>
       </div>
+      
 
       {/* Hero Carousel Section */}
       <section className="relative lg:pl-46 lg:pr-46">

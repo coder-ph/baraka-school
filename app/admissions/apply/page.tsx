@@ -88,9 +88,11 @@ ${formData.notes}
 
   return (
     <>
-     <div className="sticky top-0 bg-gray-50 z-50 pl-55 pr-55">
+     <div className="sticky top-0 bg-gray-50 z-50 pl-55 pr-55 h-[3px] ">
                 <Navbar />
-                <div className="border-b-2 border-blue-600 "></div>
+                <div className='lg:pl-9 lg:pr-9 '> 
+                  <div className="border-b-2 border-blue-600 "></div></div>
+                
               </div>
     <div className="min-h-screen bg-gray-50 py-8 px-15">
       <div className="container mx-auto max-w-7xl">
