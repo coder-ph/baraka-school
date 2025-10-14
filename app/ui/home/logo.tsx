@@ -9,7 +9,7 @@ export default function Logo() {
         alt="School Logo"
         width={120}
         height={60}
-        className="h-14 w-auto object-contain"
+        className="h-10 md:h-20 lg:h-20 w-auto object-contain"
         priority
       />
     </Link>

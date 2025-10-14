@@ -88,7 +88,7 @@ ${formData.notes}
 
   return (
     <>
-     <div className="sticky top-0 bg-white z-50 pl-19 pr-19">
+     <div className="sticky top-0 bg-gray-50 z-50 pl-55 pr-55">
                 <Navbar />
                 <div className="border-b-2 border-blue-600 "></div>
               </div>

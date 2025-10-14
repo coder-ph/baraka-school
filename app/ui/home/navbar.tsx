@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const admissionsItems = [
-    { label: 'Fee Structure', href: '/' },
+    // { label: 'Fee Structure', href: '/' },
     { label: 'Apply for Admission', href: '/admissions/apply' },
   ];
 
@@ -22,11 +22,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-transparent sticky top-0 z-50 pl-8 pr-8">
+      <nav className="bg-gray-50 sticky top-3 z-50 pl-8 pr-8 pb-8">
         <div className="container mx-auto" style={{ paddingLeft: '5px', paddingRight: '5px' }}>
           <div className="flex justify-between items-center h-16">
             <Logo />
-            <div className="hidden lg:flex items-center space-x-8 text-[#3d1f4c]">
+            <div className="hidden text-[20px] lg:flex items-center space-x-8 text-[#3d1f4c]">
               <Dropdown title="Admissions" items={admissionsItems} />
               
               <Link
@@ -36,7 +36,7 @@ export default function Navbar() {
                 Academics
               </Link>
               
-              <Dropdown title="News" items={newsItems} />
+              {/* <Dropdown title="News" items={newsItems} /> */}
 
               {/* School Life Link */}
               <Link

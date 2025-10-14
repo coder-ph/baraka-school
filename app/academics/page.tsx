@@ -6,7 +6,10 @@ import Link from "next/link";
 export default function Academics() {
   return (
     <>
-      <div className="sticky top-0 bg-white z-0 pl-11.5 pr-16.5">
+    <div className="pr-55 pl-55">
+
+    
+      <div className="sticky top-0 bg-white z-0">
         <Navbar />
         <div className="border-b-2 border-blue-600"></div>
       </div>
@@ -143,6 +146,7 @@ export default function Academics() {
         </div>
       </div>
       <Footer />
+      </div>
     </>
   );
 }
