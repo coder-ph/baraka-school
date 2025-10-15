@@ -15,9 +15,9 @@ export default function Academics() {
         <div className="border-b-2 border-blue-600"></div>
       </div>
    
-      <div className="min-h-screen bg-gray-50 py-5 pr-15 pl-10">
+      <div className="min-h-screen bg-gray-50 py-8 pr-15 pl-10">
         <div className="container mx-auto max-w-6xl"> 
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-30">
+          <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-30">
             {/* Left Column - Sidebar */}
             <div className="lg:col-span-1">
               {/* Breadcrumb */}
