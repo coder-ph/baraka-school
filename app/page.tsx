@@ -15,12 +15,12 @@ export default function Home() {
           <div className="border-b-2 border-blue-600"></div>
         </div>
 
-        {/* Hero Carousel Section */}
+     
         <section className="relative">
           <Carousel />
         </section>
 
-        {/* Combined Welcome Card Section */}
+        
         <section className="py-5">
           <div className="container mx-auto px-0 sm:px-4">
             <div className="max-w-8xl mx-auto">
