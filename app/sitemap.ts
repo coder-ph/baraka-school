@@ -1,59 +1,61 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://www.barakamtitoacademy.co.ke'
+  
   return [
     {
-      url: 'https://www.barakamtitoacademy.co.ke',
+      url: `${baseUrl}`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as const,
       priority: 1,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/about',
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/academics',
+      url: `${baseUrl}/academics`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/admissions',
+      url: `${baseUrl}/admissions`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/admissions/apply',
+      url: `${baseUrl}/admissions/apply`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as const,
       priority: 0.6,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/admissions/fee-structure',
+      url: `${baseUrl}/admissions/fee-structure`,
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: 'yearly' as const,
       priority: 0.5,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/school-life',
+      url: `${baseUrl}/school-life`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'monthly' as const,
       priority: 0.6,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/news/events',
+      url: `${baseUrl}/news/events`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'weekly' as const,
       priority: 0.4,
     },
     {
-      url: 'https://www.barakamtitoacademy.co.ke/news/achievements',
+      url: `${baseUrl}/news/achievements`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'weekly' as const,
       priority: 0.4,
     },
   ]

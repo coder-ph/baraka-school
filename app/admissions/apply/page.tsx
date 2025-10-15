@@ -5,10 +5,10 @@ import Link from 'next/link';
 import Footer from '@/app/ui/home/footer';
 import Navbar from '@/app/ui/home/navbar';
 
-export const metadata = {
-  title: "Baraka Mtito Academy | Home - Quality Education in Kibwezi East",
-  description: "Welcome to Baraka Mtito Academy. Premier education institution offering academic excellence and holistic development for students.",
-}
+// export const metadata = {
+//   title: "Baraka Mtito Academy | Home - Quality Education in Kibwezi East",
+//   description: "Welcome to Baraka Mtito Academy. Premier education institution offering academic excellence and holistic development for students.",
+// }
 
 interface Student {
   id: number;
