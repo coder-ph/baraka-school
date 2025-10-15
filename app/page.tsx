@@ -4,10 +4,17 @@ import CombinedWelcomeCard from "./ui/home/combined-welcome-card";
 import MapCard from "./ui/home/map-card";
 import ContactCard from "./ui/home/contact-card";
 import Footer from "./ui/home/footer";
+import StructuredData from './StructuredData';
+
+export const metadata = {
+  title: "Baraka Mtito Academy | Home - Quality Education in Kibwezi East",
+  description: "Welcome to Baraka Mtito Academy. Premier education institution offering academic excellence and holistic development for students.",
+}
 
 export default function Home() {
   return (
     <>
+    <StructuredData />
       <div className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:pl-15 lg:pr-15">
         {/* Sticky Navbar */}
         <div className="sticky top-0 bg-gray-100 z-50">

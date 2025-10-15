@@ -2,12 +2,17 @@ import Footer from "../ui/home/footer";
 import Navbar from "../ui/home/navbar";
 import TestimonialSlider from "../ui/home/testimonial-slider";
 
+export const metadata = {
+  title: "Baraka Mtito Academy | Home - Quality Education in Kibwezi East",
+  description: "Welcome to Baraka Mtito Academy. Premier education institution offering academic excellence and holistic development for students.",
+}
+
 export default function About() {
   return (
     <>
     <div className="sticky top-0 bg-white z-50 pl-19 pr-19">
             <Navbar />
-            <div className="border-b-2 border-blue-600 "></div>
+            <div className="border-b-2 border-blue-600 "/>
           </div>
     <div className="min-h-screen bg-white pl-15 pr-15">
         
@@ -22,7 +27,7 @@ export default function About() {
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 Baraka Junior School (Baraka Mtito Academy) was established through the efforts of the Turner Foundation, 
-                a registered Community-Based Organization (CBO) founded in 2003 in Mtito Andei, Makueni County.
+                a registered Community-Based Organization (CBO) founded in 2003 in Kibwezi East, Makueni County.
               </p>
               <p>
                 The CBO began with projects aimed at improving access to electricity, clean water, and education for 

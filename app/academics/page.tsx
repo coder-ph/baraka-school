@@ -4,6 +4,11 @@ import Footer from "../ui/home/footer";
 import Navbar from "../ui/home/navbar";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Baraka Mtito Academy | Home - Quality Education in Kibwezi East",
+  description: "Welcome to Baraka Mtito Academy. Premier education institution offering academic excellence and holistic development for students.",
+}
+
 export default function Academics() {
   return (
     <>

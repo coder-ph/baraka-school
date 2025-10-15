@@ -3,13 +3,17 @@ import Footer from "../ui/home/footer";
 import Navbar from "../ui/home/navbar";
 import Link from 'next/link';
 
+export const metadata = {
+  title: "Baraka Mtito Academy | Home - Quality Education in Kibwezi East",
+  description: "Welcome to Baraka Mtito Academy. Premier education institution offering academic excellence and holistic development for students.",
+}
 export default function SchoolLife() {
   const schoolLifeSections = [
     {
   id: 1,
   image: '/trophy.jpg',
   title: 'Excellence Award Victory',
-  description: 'Baraka Mtito School proudly received the National Academic Excellence Trophy, a testament to our students’ hard work, discipline, and commitment to excellence. This achievement reflects our dedication to nurturing not only bright minds but also future leaders who strive for greatness in every pursuit.',
+  description: 'Baraka Mtito Academy proudly received the National Academic Excellence Trophy, a testament to our students’ hard work, discipline, and commitment to excellence. This achievement reflects our dedication to nurturing not only bright minds but also future leaders who strive for greatness in every pursuit.',
   align: 'right'
 },
     {
