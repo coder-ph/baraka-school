@@ -6,49 +6,56 @@ import Link from 'next/link';
 export default function SchoolLife() {
   const schoolLifeSections = [
     {
-      id: 1,
+  id: 1,
+  image: '/trophy.jpg',
+  title: 'Excellence Award Victory',
+  description: 'Baraka Mtito School proudly received the National Academic Excellence Trophy, a testament to our students’ hard work, discipline, and commitment to excellence. This achievement reflects our dedication to nurturing not only bright minds but also future leaders who strive for greatness in every pursuit.',
+  align: 'right'
+},
+    {
+      id: 2,
       image: '/class.jpg',
       title: 'Interactive Classroom Learning',
       description: 'Our students engage in dynamic classroom activities that foster critical thinking and collaborative learning. With modern teaching methodologies and well-equipped classrooms, we create an environment where every student can thrive academically.',
       align: 'left'
     },
     {
-      id: 2,
+      id: 3,
       image: '/play.jpeg',
       title: 'Sports & Recreational Activities',
       description: 'Physical education and sports play a vital role in our holistic development approach. Students participate in various sports activities that promote teamwork, discipline, and physical fitness while having fun and building lasting friendships.',
       align: 'right'
     },
     {
-      id: 3,
+      id: 4,
       image: '/boardingf.jpeg',
       title: 'Girls Boarding Facilities',
       description: 'Our girls\' boarding facility provides a safe, nurturing, and comfortable home away from home. With dedicated matrons and modern amenities, we ensure our female students feel supported and empowered in their educational journey.',
       align: 'left'
     },
     {
-      id: 4,
+      id: 5,
       image: '/boardingm.jpeg',
       title: 'Boys Boarding Facilities',
       description: 'The boys\' boarding house offers a structured and supportive environment that promotes responsibility and independence. Our boarding masters provide guidance and mentorship, creating a conducive atmosphere for academic and personal growth.',
       align: 'right'
     },
     {
-      id: 5,
+      id: 6,
       image: '/pract.jpg',
       title: 'Hands-on Practical Learning',
       description: 'We believe in learning by doing. Our practical sessions in sciences, technology, and creative arts allow students to apply theoretical knowledge, develop problem-solving skills, and discover their passions through experiential learning.',
       align: 'left'
     },
     {
-      id: 6,
+      id: 7,
       image: '/assembly.jpg',
       title: 'Morning Assembly & Gatherings',
       description: 'Daily assemblies bring our school community together for prayer, announcements, and motivational talks. These gatherings foster unity, discipline, and school spirit while setting a positive tone for the day ahead.',
       align: 'right'
     },
     {
-  id: 7,
+  id: 8,
   image: '/trip.jpeg',
   title: 'Academic Trip',
   description: 'Educational excursions provide students with immersive learning experiences beyond the classroom. Our trips expose students to real-world applications of academic concepts, broaden their perspectives, and create memorable moments that strengthen bonds within the school community.',
@@ -58,9 +65,12 @@ export default function SchoolLife() {
 
   return (
     <>
-      <div className="sticky top-0 bg-gray-50 z-50 pl-55 pr-55">
+      <div className="sticky top-0 bg-gray-50 z-50 pl-9 pr-9">
         <Navbar />
-        <div className="border-b-2 border-blue-600"></div>
+        <div className='pl-9 pr-9'>
+            <div className="border-b-2 border-blue-600"></div>
+        </div>
+        
       </div>
    
       <div className="min-h-screen bg-gray-50 py-8">
