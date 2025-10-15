@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="min-h-screen bg-gray-100 px-4 sm:px-6 lg:pl-15 lg:pr-15">
         {/* Sticky Navbar */}
-        <div className="sticky top-0 bg-white z-50">
+        <div className="sticky top-0 bg-gray-100 z-50">
           <Navbar />
           <div className="border-b-2 border-blue-600"></div>
         </div>
